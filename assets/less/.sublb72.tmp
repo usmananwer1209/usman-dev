@@ -1,0 +1,125 @@
+.RCH_disable{
+	display:none !important;
+	opacity:0 !important;
+	visibility:hidden !important;
+}
+.RCH_disable_id{
+	display:none;
+}
+.green{
+	color: #B3D31A;
+}
+/************************* login ****************************/
+#frm_login {
+	& .alert{
+		margin-right: 30px;	
+	}
+}
+/************************* NavBar ****************************/
+.header .chat-toggler {
+	min-width: 140px;
+}
+.grid-title{
+	min-height: 35px;
+}
+#sync_companies,#sync_kpis{
+	color: #fff;
+}
+#modalSynch .loading{
+	margin-left: 30px;
+    position: relative;
+    top: 0;
+}
+/************************* Profile ****************************/
+.bfh-selectbox-options{
+	width:100%;
+	& ul[role="option"]{
+		width: 100%;
+	    max-width: 100% !important;
+	}
+}
+.form-group{
+    margin-bottom: 15px;
+    &  > label[for="avatar"]{
+		width: 100%;
+	}
+}
+/************************* Profile List****************************/
+#example3 .bfh-countries{
+	/*font-size: 0;*/
+}
+#parks .meta{
+	&.name {
+		& .titles em{
+			line-height: 30px;	
+		}
+		& .img_wrapper{
+			width: 100px;
+		}
+	}
+	&.circles *{
+	    margin-top: 10px;
+	}
+}
+.avatar.mix-image{
+	width: 100px;
+	height: 100px;
+}
+/************************* Circle List****************************/
+.meta.name p.description{
+	max-width: 490px;
+	line-height: 15px;
+}
+
+/************************** Cards *********************************/
+.add-cards{
+	font-size: 40px;
+}
+
+.add-cards-form{
+	& .title{
+		background-color: #22262E;
+		font-size:18px;
+		color: #fff;
+		padding: 5px;
+    	margin-bottom: 10px;
+    	& p{
+    		float: left;	
+    	}
+    	& .card{
+			font-size:10px;
+			float: left;
+    	}
+
+	}
+}
+
+.cards{
+	min-height: 200px;
+	margin:0;
+	padding:0;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+	&.explore{
+		background-image: url("../img/explore.jpg");
+		font-size:10px;
+		float: right;
+	}
+	&.rank{
+		background-image: url("../img/rank.jpg");
+	}
+	&.map{
+		background-image: url("../img/map.jpg");
+		font-size:10px;
+		float: right;
+	} 
+	& .tiles{
+		background-color: #6F7B8A;
+	}
+	& .card_core{
+		border: 1px solid black;
+		width:100%;
+	}
+}

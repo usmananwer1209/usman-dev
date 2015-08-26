@@ -1,0 +1,31 @@
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: #5E9586;
+    stroke-width: 6px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #81CCB7;
+    stroke-width: 10px;
+}
+
+*, *:after, *:before { box-sizing: border-box; }
+
+body {
+    background: #f9f7f6;
+    color: #404d5b;
+    font-weight: 300;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
